@@ -3,11 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "2019"
-      RAM_SIZE: "8G"
-      CPU_CORES: "4"
-      DISK_SIZE: "180G"
-      USERNAME: "masr"
+      VERSION: "2025"
+      RAM_SIZE: "16G"
+      CPU_CORES: "6"
+      DISK_SIZE: "200G"
+      USERNAME: "masR"
       PASSWORD: "admin@r"
     devices:
       - /dev/kvm
