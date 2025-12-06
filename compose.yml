@@ -7,6 +7,8 @@ services:
       RAM_SIZE: "64G"
       CPU_CORES: "8"
       DISK_SIZE: "250G"
+      DISK2_SIZE: "80G"
+      DISK3_SIZE: "64G"
       USERNAME: "MasR"
       PASSWORD: "R12345"
     devices:
@@ -21,5 +23,7 @@ services:
       - 3389:3389/udp
     volumes:
       - ./windows:/storage
+      - ./windows:/storage2
+      - ./windows:/storage3
     restart: always
     stop_grace_period: 2m
