@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "2022"
+      VERSION: "2012"
       RAM_SIZE: "128G"
       CPU_CORES: "6"
       DISK_SIZE: "200G"
